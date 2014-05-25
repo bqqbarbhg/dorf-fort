@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\dorf">
+      <UniqueIdentifier>{88e2a080-cd75-43fc-85d9-d830a880f051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\dorf\lib">
+      <UniqueIdentifier>{6d4b6e81-8eb2-45af-8388-2822e301b06b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\src\precompiled.cpp">
@@ -22,6 +28,9 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\src\precompiled.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\dorf\lib\bit_hash.h">
+      <Filter>Source Files\dorf\lib</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

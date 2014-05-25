@@ -16,6 +16,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\src\dorf\lib\bit_hash.h" />
     <ClInclude Include="..\..\..\src\precompiled.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
