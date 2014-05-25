@@ -6,7 +6,7 @@
 // Inherit this when creating a new hash type
 // T: Type of object to hash
 // NumBits: Number of bits contained in the hash set (profile to balance memory/collisions)
-// REQUIREMENTS:
+// REQUIREMENTS for T:
 //   static HashType getHash(T)
 template <typename T, unsigned NumBits>
 struct HashTraits
