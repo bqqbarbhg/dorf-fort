@@ -42,6 +42,7 @@ public:
 		unsigned pos;
 	};
 	
+	// Hashes value and returns a bit used to set/test if a hash exists
 	static Bit getHashBit(const typename HashTraits::Type& value)
 	{
 		return Bit{ HashTraits::getHash(value) };
